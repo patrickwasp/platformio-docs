@@ -26,6 +26,14 @@ credit-card-sized computers (`Raspberry Pi <http://www.raspberrypi.org>`_,
     **Python 3.6+ or above**. See detailed instructions on how to
     :ref:`faq_install_python`.
 
+    **Additional Requirement for Linux Users:**
+    Ensure that the `python3-venv` package is installed to create Python virtual environments.
+    You can install it using the following command:
+    
+    ```bash
+    sudo apt install python3-venv
+    ```
+
 :Terminal Application:
 
     All CLI commands below should be executed in the
